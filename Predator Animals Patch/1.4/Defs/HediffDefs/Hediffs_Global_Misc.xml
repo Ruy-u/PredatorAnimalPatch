@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ruyuHediff_ReducedBleeding</defName>
+	<hediffClass>HediffWithComps</hediffClass>
+	<defaultLabelColor>(50,205,50)</defaultLabelColor>
+    <label>Thrill of The Hunt</label>
+    <description>The bleeding rate of the hunter is reduced.</description>
+	<maxSeverity>1.0</maxSeverity>
+	<isBad>false</isBad>
+	<comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+	<stages>
+      <li>
+	  <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>
